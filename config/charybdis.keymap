@@ -11,6 +11,15 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Hyper {
+            bindings = <&kp LS(LA(LC(LGUI)))>;
+            key-positions = <50 51>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
