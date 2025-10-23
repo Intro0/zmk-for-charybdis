@@ -58,8 +58,8 @@
 		irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
 		/* Layer-specific trackball modes */
-		snipe-layers = <2>;   // Layer 2 will be sniping mode
-		scroll-layers = <3>;  // Layer 3 will be scroll mode
+		snipe-layers = <4>;   // Layer 4 (Snipe) will be sniping mode
+		scroll-layers = <5>;  // Layer 5 (Scroll) will be scroll mode
 	};
 };
 
